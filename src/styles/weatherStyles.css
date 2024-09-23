@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Helvetica:wght@400;700&display=swap');
+
+body {
+  font-family: 'Helvetica', sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  background-color: #f4f4f4;
+
+
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  margin-bottom: 50px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  outline: none;
+  border: 2.5px solid white;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+input[type="text"]:focus {
+  border: 2.5px solid #487ad6;
+}
+
+
+button {
+  padding: 10px 20px;
+  background-color: #487ad6;
+  border: 1px solid #487ad6;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 16px;
+  transition: 200ms;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #002f86;
+}
+
+
+p {
+  margin-bottom: 5px;
+}
+
+.city-title {
+  font-size: 24px;
+}
+
+img {
+  width: 150px;
+  height: 150px;
+  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.295));
+}
+
+.temperatura {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.resultado {
+  border: 1.5px solid black;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: #487ad6;
+  -webkit-box-shadow: 0px 0px 7px -1px rgba(0, 0, 0, 0.50);
+  -moz-box-shadow: 0px 0px 7px -1px rgba(0, 0, 0, 0.50);
+  box-shadow: 0px 0px 7px -1px rgba(0, 0, 0, 0.50);
+  transition: 200ms;
+}
+
+.resultado:hover{
+  transform: scale(1.05);
+}
+
+.resultado-dentro {
+  border: 1.5px solid black;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+}
+
+
+/* Estilos para móviles */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  input[type="text"] {
+    font-size: 18px;
+  }
+
+  button {
+    padding: 8px 16px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  .temperatura {
+    font-size: 30px;
+
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+}
