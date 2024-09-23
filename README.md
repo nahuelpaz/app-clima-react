@@ -10,7 +10,7 @@ Esta aplicación permite a los usuarios consultar el clima actual de una ciudad 
 
 **HTML:** Estructura de la página.
 
-**CSS:** ara el diseño y presentación de la información meteorológica, incluyendo estilos para los botones y los resultados.
+**CSS:** Para el diseño y presentación de la información meteorológica, incluyendo estilos para los botones y los resultados.
 
 
 [Probalo aqui](https://clima-react-naw.netlify.app/)
