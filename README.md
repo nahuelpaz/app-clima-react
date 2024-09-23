@@ -1,6 +1,6 @@
-# Aplicacion del Clima
+# Buscador de Películas
 
-Esta aplicación permite a los usuarios consultar el clima actual de una ciudad específica. Utiliza la API de OpenWeatherMap para obtener y mostrar la información meteorológica, asegurando que los usuarios puedan acceder a datos actualizados en tiempo real.
+Esta aplicación permite a los usuarios buscar y consultar información sobre películas. Utiliza la API de The Movie Database (TMDB) para obtener y mostrar detalles de las películas, asegurando que los usuarios puedan acceder a datos actualizados en tiempo real.
 
 # Tecnologias Utilizadas
 
@@ -10,7 +10,7 @@ Esta aplicación permite a los usuarios consultar el clima actual de una ciudad 
 
 **HTML:** Estructura de la página.
 
-**CSS:** Para el diseño y presentación de la información meteorológica, incluyendo estilos para los botones y los resultados.
+**CSS:** Para el diseño y presentación de la información de las películas, incluyendo estilos para los botones y las tarjetas de películas.
 
 
-[Probalo aqui](https://clima-react-naw.netlify.app/)
+[Probalo aqui](https://buscador-peliculas-react-naw.netlify.app/)
